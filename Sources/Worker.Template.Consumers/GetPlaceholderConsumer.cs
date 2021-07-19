@@ -1,7 +1,7 @@
 ﻿using MassTransit;
 using Microsoft.Extensions.Logging;
-using Worker.Template.Core;
 using System.Threading.Tasks;
+using Worker.Template.Core;
 
 namespace Worker.Template.Consumers
 {

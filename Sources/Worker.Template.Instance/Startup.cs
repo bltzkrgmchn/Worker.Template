@@ -6,12 +6,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using System;
 using Worker.Template.Consumers;
 using Worker.Template.Consumers.Healthchecks;
 using Worker.Template.Core;
 using Worker.Template.Data;
 using Worker.Template.WebApi;
-using System;
 
 namespace Worker.Template.Instance
 {

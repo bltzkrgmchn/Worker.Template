@@ -5,9 +5,9 @@ using FluentAssertions;
 using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using NUnit.Framework;
-using Worker.Template.Consumers.Healthchecks;
 using System.Net;
 using System.Threading;
+using Worker.Template.Consumers.Healthchecks;
 
 namespace Worker.Template.WebApi.Tests
 {

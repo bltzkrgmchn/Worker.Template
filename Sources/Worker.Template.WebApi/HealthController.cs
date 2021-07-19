@@ -1,9 +1,9 @@
 ﻿using MassTransit;
 using Microsoft.AspNetCore.Mvc;
-using Worker.Template.Consumers.Healthchecks;
 using System;
 using System.Net;
 using System.Threading.Tasks;
+using Worker.Template.Consumers.Healthchecks;
 
 namespace Worker.Template.WebApi
 {

@@ -1,5 +1,5 @@
-﻿using Worker.Template.Core;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Worker.Template.Core;
 
 namespace Worker.Template.Consumers
 {
