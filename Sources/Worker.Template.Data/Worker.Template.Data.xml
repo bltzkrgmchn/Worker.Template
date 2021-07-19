@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Worker.Template.Data</name>
+    </assembly>
+    <members>
+        <member name="T:Worker.Template.Data.PlaceholderContext">
+            <summary>
+            Контекст базы данных Placeholder.
+            </summary>
+        </member>
+        <member name="M:Worker.Template.Data.PlaceholderContext.#ctor(System.String)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:Worker.Template.Data.PlaceholderContext"/>.
+            </summary>
+            <param name="connectionString">Строка подключения.</param>
+        </member>
+        <member name="P:Worker.Template.Data.PlaceholderContext.Placeholders">
+            <summary>
+            Получает или задает содержимое базы данных Placeholder.
+            </summary>
+        </member>
+        <member name="M:Worker.Template.Data.PlaceholderContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Worker.Template.Data.PlaceholderDto">
+            <summary>
+            Placeholder.
+            </summary>
+        </member>
+        <member name="P:Worker.Template.Data.PlaceholderDto.Id">
+            <summary>
+            Получает или задает идентификатор Placeholder.
+            </summary>
+        </member>
+        <member name="T:Worker.Template.Data.PlaceholderRepository">
+            <inheritdoc />
+        </member>
+        <member name="M:Worker.Template.Data.PlaceholderRepository.#ctor(System.String,Microsoft.Extensions.Logging.ILogger{Worker.Template.Data.PlaceholderRepository})">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:Worker.Template.Data.PlaceholderRepository"/>.
+            </summary>
+            <param name="connectionString">Строка подключения.</param>
+            <param name="logger">Абстракция над сервисом журналирования.</param>
+        </member>
+        <member name="M:Worker.Template.Data.PlaceholderRepository.Find">
+            <inheritdoc />
+        </member>
+        <member name="M:Worker.Template.Data.PlaceholderRepository.Find(System.String)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
