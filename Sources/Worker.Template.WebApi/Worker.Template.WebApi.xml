@@ -64,12 +64,11 @@
             Контроллер Placeholder.
             </summary>
         </member>
-        <member name="M:Worker.Template.WebApi.PlaceholderController.#ctor(MassTransit.IRequestClient{Worker.Template.Consumers.GetPlaceholderCommand},MassTransit.IRequestClient{Worker.Template.Consumers.GetAllPlaceholdersCommand})">
+        <member name="M:Worker.Template.WebApi.PlaceholderController.#ctor(Worker.Template.Core.IPlaceholderService)">
             <summary>
             Инициализирует новый экземпляр класса <see cref="T:Worker.Template.WebApi.PlaceholderController"/>.
             </summary>
-            <param name="getPlaceholderClient">Клиент получения Placeholder.</param>
-            <param name="getAllPlaceholdersClient">Клиент получения списка Placeholder.</param>
+            <param name="placeholderService">Сервис Placeholder.</param>
         </member>
         <member name="M:Worker.Template.WebApi.PlaceholderController.Options">
             <summary>

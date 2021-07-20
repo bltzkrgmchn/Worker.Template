@@ -34,7 +34,7 @@ namespace Worker.Template.Consumers
         {
             this.logger.LogInformation("Выполняется обработка сообщения получения всех Placeholder.");
 
-            List<Placeholder> placeholders = this.service.Get();
+            List<Placeholder> placeholders = await this.service.Get();
 
             await context.RespondAsync(new GetAllPlaceholdersResponse { Placeholders = placeholders, Result = "success" });
         }

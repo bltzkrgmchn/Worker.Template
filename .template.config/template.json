@@ -6,10 +6,10 @@
     ],
     "name": "Web Api Service with MassTransit",
     "identity": "Web Api Service with MassTransit",
-    "shortName": "webapi-masstransit",
+    "shortName": "baal-worker",
     "tags": {
         "language": "C#",
-        "type": "solution"
+        "type": "project"
     },
     "sourceName": "Worker.Template",
     "preferNameDirectory": true,

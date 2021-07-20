@@ -33,7 +33,7 @@ namespace Worker.Template.Consumers
         {
             this.logger.LogInformation($"Выполняется обработка сообщения получения Placeholder с идентификатором {context.Message.Id}.");
 
-            Placeholder placeholder = this.service.Get(context.Message.Id);
+            Placeholder placeholder = await this.service.Get(context.Message.Id);
 
             if (placeholder != null)
             {
